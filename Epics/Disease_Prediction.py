@@ -81,7 +81,7 @@ def RandomForest():
     return a,predicted
     
 
-#RandomForest()
+#NavieBayes()
 
 def naive():
     X_reduced,y=df[['phlegm', 'red_spots_over_body', 'rusty_sputum', 'belly_pain',
